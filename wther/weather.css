@@ -1,0 +1,61 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ .header {
+     border: 1px solid red;
+     padding: 15px;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ .menu {
+     width: 25%;
+     float: left;
+     padding: 15px;
+     border: 1px solid red;
+ }
+
+ .main {
+     width: 75%;
+     float: left;
+     padding: 15px;
+     border: 1px solid red;
+
+ }
+
+ .flex-container {
+
+     flex-wrap: wrap;
+
+     align-content: space-between;
+ }
+
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     height: 300px;
+     text-align: center;
+     background-color: #f1f1f1;
+ }
+
+ .row {
+     margin: 0 -5px;
+ }
+
+ .column {
+     float: left;
+     width: 20%;
+     height: 310px;
+     padding: 0 10px;
+     text-align: center;
+
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+     content:"";
+     display: table;
+     clear: both;
+ }
